@@ -339,7 +339,10 @@ function CurtainContent({ openSeasonPopup }: { openSeasonPopup: (season: string)
 
             {/* Seasonal Recommendations - Only relevant for Curtains usually, or can be adapted */}
             <section className="py-20 bg-deep-charcoal text-white relative overflow-hidden">
-                <div className="absolute inset-0 opacity-10 bg-[url('/images/hero-bg.jpg')] bg-cover bg-center" />
+                <div
+                    className="absolute inset-0 opacity-10 bg-cover bg-center"
+                    style={{ backgroundImage: "url('/1/images/hero-bg.jpg')" }}
+                />
                 <div className="max-w-7xl mx-auto px-6 relative z-10">
                     <div className="text-center mb-16">
                         <span className="bg-accent-gold/20 text-accent-gold px-4 py-1 rounded-full text-sm font-bold uppercase tracking-wider mb-4 inline-block">
