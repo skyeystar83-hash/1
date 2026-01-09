@@ -17,13 +17,13 @@ export default function Home() {
                 <div className="max-w-4xl mx-auto text-center">
                     <span className="text-accent-gold font-bold tracking-widest text-sm uppercase mb-4 block">Brand Story</span>
                     <h2 className="text-3xl md:text-5xl font-bold mb-8 leading-snug">
-                        나비창은 단순한 커튼이 아닌<br />
-                        <span className="text-gray-400">당신의 품격을 디자인합니다.</span>
+                        ?�비창�? ?�순??커튼???�닌<br />
+                        <span className="text-gray-400">?�신???�격???�자?�합?�다.</span>
                     </h2>
                     <p className="text-gray-600 leading-relaxed max-w-2xl mx-auto">
-                        최고급 원단과 정교한 시공, 그리고 공간을 이해하는 안목으로
-                        고객님의 공간을 더욱 특별하게 만들어 드립니다.
-                        나비창만의 차별화된 프리미엄 홈스타일링을 경험해보세요.
+                        최고�??�단�??�교???�공, 그리�?공간???�해?�는 ?�목?�로
+                        고객?�의 공간???�욱 ?�별?�게 만들???�립?�다.
+                        ?�비창만??차별?�된 ?�리미엄 ?�스?�?�링??경험?�보?�요.
                     </p>
                 </div>
             </section>
@@ -34,7 +34,7 @@ export default function Home() {
                     <div className="flex flex-col md:flex-row justify-between items-end mb-12">
                         <div>
                             <span className="text-gray-500 font-bold tracking-widest text-xs uppercase mb-2 block">Our Services</span>
-                            <h3 className="text-3xl font-bold">나비창만의 차별화</h3>
+                            <h3 className="text-3xl font-bold">?�비창만??차별??/h3>
                         </div>
                         <a href="#" className="text-sm border-b border-black pb-1 hover:text-accent-gold hover:border-accent-gold transition-colors mt-4 md:mt-0">VIEW ALL &gt;</a>
                     </div>
@@ -44,7 +44,7 @@ export default function Home() {
                         <div className="group cursor-pointer">
                             <div className="aspect-[4/5] bg-gray-300 mb-4 overflow-hidden relative">
                                 <Image
-                                    src="/1/images/premium_fabric.png"
+                                    src="/images/premium_fabric.png"
                                     alt="Premium Fabric"
                                     fill
                                     className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -52,7 +52,7 @@ export default function Home() {
                                 <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500 pointer-events-none" />
                             </div>
                             <h4 className="text-xl font-bold mb-1 group-hover:text-accent-gold transition-colors">Premium Fabric</h4>
-                            <p className="text-gray-500 text-sm">국산&수입원단</p>
+                            <p className="text-gray-500 text-sm">�?��&?�입?�단</p>
                         </div>
                         {/* Service Item 2 */}
                         <div className="group cursor-pointer">
@@ -71,13 +71,13 @@ export default function Home() {
                                 <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500 pointer-events-none" />
                             </div>
                             <h4 className="text-xl font-bold mb-1 group-hover:text-accent-gold transition-colors">Blackout Master</h4>
-                            <p className="text-gray-500 text-sm">완벽한 숙면을 위한 100% 암막</p>
+                            <p className="text-gray-500 text-sm">?�벽???�면???�한 100% ?�막</p>
                         </div>
                         {/* Service Item 3 */}
                         <div className="group cursor-pointer">
                             <div className="aspect-[4/5] bg-gray-300 mb-4 overflow-hidden relative">
                                 <Image
-                                    src="/1/images/line_lighting.png"
+                                    src="/images/line_lighting.png"
                                     alt="Line Lighting Service"
                                     fill
                                     className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -85,7 +85,7 @@ export default function Home() {
                                 <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500 pointer-events-none" />
                             </div>
                             <h4 className="text-xl font-bold mb-1 group-hover:text-accent-gold transition-colors">Free Line Lighting</h4>
-                            <p className="text-gray-500 text-sm">커튼박스 줄조명 무상 시공 서비스</p>
+                            <p className="text-gray-500 text-sm">커튼박스 줄조�?무상 ?�공 ?�비??/p>
                         </div>
                     </div>
                 </div>
@@ -130,14 +130,14 @@ export default function Home() {
 
             {/* Consultation CTA */}
             <section className="py-32 bg-deep-charcoal text-white text-center px-6">
-                <h2 className="text-3xl md:text-5xl font-bold mb-6">공간을 바꾸는 가장 쉬운 방법</h2>
+                <h2 className="text-3xl md:text-5xl font-bold mb-6">공간??바꾸??가???�운 방법</h2>
                 <p className="text-white/70 mb-10 max-w-2xl mx-auto">
-                    전문가와의 1:1 상담을 통해 실패 없는 스타일링을 완성하세요.
+                    ?�문가?�??1:1 ?�담???�해 ?�패 ?�는 ?��??�링???�성?�세??
                 </p>
                 <div className="flex flex-col items-center gap-8">
                     <div className="flex flex-col md:flex-row gap-4">
                         <ConsultationButton
-                            text="무료 실측 · 상담 신청"
+                            text="무료 ?�측 · ?�담 ?�청"
                             className="px-8 py-4 bg-accent-gold text-white font-bold text-lg hover:bg-white hover:text-deep-charcoal transition-all duration-300 min-w-[200px] inline-flex justify-center items-center"
                         />
                         <a
@@ -146,7 +146,7 @@ export default function Home() {
                             rel="noopener noreferrer"
                             className="px-8 py-4 border-2 border-white text-white font-bold text-lg hover:bg-white hover:text-deep-charcoal transition-all duration-300 min-w-[200px] inline-flex justify-center items-center"
                         >
-                            매장방문예약
+                            매장방문?�약
                         </a>
                     </div>
 

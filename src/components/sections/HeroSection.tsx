@@ -42,7 +42,7 @@ export default function HeroSection() {
             {/* Background Image Area */}
             <div ref={bgRef} className="absolute inset-0">
                 <Image
-                    src="/1/images/hero-bg.jpg"
+                    src="/images/hero-bg.jpg"
                     alt="Hero Background"
                     fill
                     className="object-cover"
@@ -59,12 +59,12 @@ export default function HeroSection() {
                         Premium Curtain & Blind
                     </p>
                     <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-8 leading-tight">
-                        예뻐야, 커튼이다<br />
+                        ?�뻐?? 커튼?�다<br />
                         <span className="font-light">NAVICHANG</span>
                     </h1>
                     <p className="text-white/80 max-w-xl mx-auto font-light leading-relaxed mb-10">
-                        당신의 라이프스타일에 맞춘 최적의 스타일링.<br />
-                        나비창이 선사하는 감각적인 공간을 경험해보세요.
+                        ?�신???�이?�스?�?�에 맞춘 최적???��??�링.<br />
+                        ?�비창이 ?�사?�는 감각?�인 공간??경험?�보?�요.
                     </p>
                     <ConsultationButton className="inline-block px-8 py-3 bg-accent-gold text-white font-bold text-lg rounded-full hover:bg-white hover:text-deep-charcoal transition-all duration-300" />
                 </div>
