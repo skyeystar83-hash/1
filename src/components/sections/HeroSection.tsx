@@ -42,7 +42,7 @@ export default function HeroSection() {
             {/* Background Image Area */}
             <div ref={bgRef} className="absolute inset-0">
                 <Image
-                    src="/images/hero-bg.jpg"
+                    src="/1/images/hero-bg.jpg"
                     alt="Hero Background"
                     fill
                     className="object-cover"

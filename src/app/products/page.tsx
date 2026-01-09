@@ -144,7 +144,7 @@ function ProductsContent() {
 
                         <div className="relative h-48 bg-gray-200">
                             <Image
-                                src="/images/hero-bg.jpg"
+                                src="/1/images/hero-bg.jpg"
                                 alt="Season Detail"
                                 fill
                                 className="object-cover"
@@ -167,7 +167,7 @@ function ProductsContent() {
                                 {[1, 2, 3].map((item) => (
                                     <li key={item} className="flex items-center gap-3 p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors cursor-pointer">
                                         <div className="w-12 h-12 bg-gray-300 rounded overflow-hidden relative">
-                                            <Image src="/images/premium_fabric.png" alt="Product" fill className="object-cover" />
+                                            <Image src="/1/images/premium_fabric.png" alt="Product" fill className="object-cover" />
                                         </div>
                                         <div>
                                             <div className="font-bold text-sm">추천 상품 {item}</div>
@@ -247,7 +247,7 @@ function CurtainContent({ openSeasonPopup }: { openSeasonPopup: (season: string)
                     <div className="flex flex-col lg:flex-row items-center gap-12">
                         <div className="lg:w-1/2 relative h-[500px] w-full rounded-2xl overflow-hidden shadow-xl">
                             <Image
-                                src="/images/premium_fabric.png"
+                                src="/1/images/premium_fabric.png"
                                 alt="Four Seasons Curtain Detail"
                                 fill
                                 className="object-cover hover:scale-105 transition-transform duration-700"

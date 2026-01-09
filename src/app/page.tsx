@@ -44,7 +44,7 @@ export default function Home() {
                         <div className="group cursor-pointer">
                             <div className="aspect-[4/5] bg-gray-300 mb-4 overflow-hidden relative">
                                 <Image
-                                    src="/images/premium_fabric.png"
+                                    src="/1/images/premium_fabric.png"
                                     alt="Premium Fabric"
                                     fill
                                     className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -77,7 +77,7 @@ export default function Home() {
                         <div className="group cursor-pointer">
                             <div className="aspect-[4/5] bg-gray-300 mb-4 overflow-hidden relative">
                                 <Image
-                                    src="/images/line_lighting.png"
+                                    src="/1/images/line_lighting.png"
                                     alt="Line Lighting Service"
                                     fill
                                     className="object-cover transition-transform duration-700 group-hover:scale-110"

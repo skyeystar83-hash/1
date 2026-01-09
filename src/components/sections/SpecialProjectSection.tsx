@@ -53,7 +53,7 @@ export default function SpecialProjectSection() {
                         {/* 1. APEC Stage */}
                         <div className="special-item aspect-square bg-gray-200 relative group overflow-hidden rounded-sm">
                             <Image
-                                src="/images/에이팩1.jpg"
+                                src="/1/images/apec-1.jpg"
                                 alt="APEC Project 1"
                                 fill
                                 className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -66,7 +66,7 @@ export default function SpecialProjectSection() {
                             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
                                 <div className="relative aspect-video rounded-lg overflow-hidden shadow-md group">
                                     <Image
-                                        src="/images/apec-1.jpg"
+                                        src="/1/images/apec-1.jpg"
                                         alt="APEC Project 1"
                                         fill
                                         className="object-cover group-hover:scale-105 transition-transform"
@@ -74,7 +74,7 @@ export default function SpecialProjectSection() {
                                 </div>
                                 <div className="relative aspect-video rounded-lg overflow-hidden shadow-md group">
                                     <Image
-                                        src="/images/apec-2.jpg"
+                                        src="/1/images/apec-2.jpg"
                                         alt="APEC Project 2"
                                         fill
                                         className="object-cover group-hover:scale-105 transition-transform"
@@ -82,7 +82,7 @@ export default function SpecialProjectSection() {
                                 </div>
                                 <div className="relative aspect-video rounded-lg overflow-hidden shadow-md group">
                                     <Image
-                                        src="/images/apec-3.jpg"
+                                        src="/1/images/apec-3.jpg"
                                         alt="APEC Project 3"
                                         fill
                                         className="object-cover group-hover:scale-105 transition-transform"
@@ -90,7 +90,7 @@ export default function SpecialProjectSection() {
                                 </div>
                                 <div className="relative aspect-video rounded-lg overflow-hidden shadow-md group">
                                     <Image
-                                        src="/images/apec-4.jpg"
+                                        src="/1/images/apec-4.jpg"
                                         alt="APEC Project 4"
                                         fill
                                         className="object-cover group-hover:scale-105 transition-transform"
@@ -109,7 +109,7 @@ export default function SpecialProjectSection() {
                                 {[1, 2].map((item) => (
                                     <div key={item} className="relative aspect-video bg-black rounded-xl overflow-hidden shadow-lg">
                                         <video className="w-full h-full object-cover" controls muted loop>
-                                            <source src={`/videos/school-${item}.mp4`} type="video/mp4" />
+                                            <source src={`/1/videos/school-${item}.mp4`} type="video/mp4" />
                                             Your browser does not support the video tag.
                                         </video>
                                     </div>
@@ -127,7 +127,7 @@ export default function SpecialProjectSection() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-md group">
                                     <Image
-                                        src="/images/hospital-1.jpg"
+                                        src="/1/images/hospital-1.jpg"
                                         alt="Hospital Project 1"
                                         fill
                                         className="object-cover group-hover:scale-105 transition-transform"
@@ -135,7 +135,7 @@ export default function SpecialProjectSection() {
                                 </div>
                                 <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-md group">
                                     <Image
-                                        src="/images/hospital-2.jpg"
+                                        src="/1/images/hospital-2.jpg"
                                         alt="Hospital Project 2"
                                         fill
                                         className="object-cover group-hover:scale-105 transition-transform"
@@ -155,7 +155,7 @@ export default function SpecialProjectSection() {
                                 {[1].map((item) => (
                                     <div key={item} className="relative aspect-video bg-black rounded-xl overflow-hidden shadow-lg">
                                         <video className="w-full h-full object-cover" controls muted loop>
-                                            <source src={`/videos/dental-${item}.mp4`} type="video/mp4" />
+                                            <source src={`/1/videos/dental-${item}.mp4`} type="video/mp4" />
                                             Your browser does not support the video tag.
                                         </video>
                                     </div>
@@ -172,13 +172,13 @@ export default function SpecialProjectSection() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div className="relative aspect-video bg-black rounded-xl overflow-hidden shadow-lg">
                                     <video className="w-full h-full object-cover" controls muted loop>
-                                        <source src="/videos/pension-1.mp4" type="video/mp4" />
+                                        <source src="/1/videos/pension-1.mp4" type="video/mp4" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
                                 <div className="relative aspect-video rounded-xl overflow-hidden shadow-md group">
                                     <Image
-                                        src="/images/pension-2.jpg"
+                                        src="/1/images/pension-2.jpg"
                                         alt="Pension Project 2"
                                         fill
                                         className="object-cover group-hover:scale-105 transition-transform"
@@ -196,13 +196,13 @@ export default function SpecialProjectSection() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div className="relative aspect-video bg-black rounded-xl overflow-hidden shadow-lg">
                                     <video className="w-full h-full object-cover" controls muted loop>
-                                        <source src="/videos/restaurant-1.mp4" type="video/mp4" />
+                                        <source src="/1/videos/restaurant-1.mp4" type="video/mp4" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
                                 <div className="relative aspect-video rounded-xl overflow-hidden shadow-md group">
                                     <Image
-                                        src="/images/restaurant-3.jpg"
+                                        src="/1/images/restaurant-3.jpg"
                                         alt="Restaurant Project 3"
                                         fill
                                         className="object-cover group-hover:scale-105 transition-transform"
@@ -211,7 +211,7 @@ export default function SpecialProjectSection() {
                             </div>    {/* Pension 2 (Image) */}
                             <div className="special-item aspect-square bg-gray-200 relative group overflow-hidden rounded-sm">
                                 <Image
-                                    src="/images/펜션2.jpg"
+                                    src="/1/images/펜션2.jpg"
                                     alt="Pension Project 2"
                                     fill
                                     className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -242,7 +242,7 @@ export default function SpecialProjectSection() {
                         </div>
                         <div className="special-item aspect-square bg-gray-200 relative group overflow-hidden rounded-sm">
                             <Image
-                                src="/images/식당3.jpg"
+                                src="/1/images/restaurant-3.jpg"
                                 alt="Restaurant Project 2"
                                 fill
                                 className="object-cover transition-transform duration-700 group-hover:scale-110"
